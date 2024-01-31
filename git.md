@@ -8,7 +8,6 @@
 
 ## 配置
 >`git config`
->
 >>`--system` #系统配置(存储位置:用户文件夹\\.gitconfig)
 >
 >>`--global` #全局配置(存储位置:安装目录\\etc\\gitconfig)
@@ -27,7 +26,7 @@
 
 >`git status` #查看仓库中的文件状态
 
->`git diff` #查看更新的详细信息，与git status不同的是，git status只显示更新的状态，而 git diff 可以显示已写入缓存与已修改但尚未写入缓存的改动的区别具体的详细信息。(其实一般用status就行)
+>`git diff` #查看更新的详细信息,与git status不同的是,git status只显示更新的状态,而 git diff 可以显示已写入缓存与已修改但尚未写入缓存的改动的区别具体的详细信息.(其实一般用status就行)
 
 >`git add <filename>` #将更改添加到暂存区(可使用通配符"."添加全部文件,使用"*.扩展名"添加一类文件)
 
