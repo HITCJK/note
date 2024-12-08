@@ -15,7 +15,7 @@
   - [Dockerfile语法](#dockerfile语法)
   - [构建镜像](#构建镜像)
 - [容器网络](#容器网络)
-- [Docker Compose(需额外安装)](#docker-compose需额外安装)
+- [Docker Compose](#docker-compose)
   - [什么是Docker Compose](#什么是docker-compose)
   - [Docker Compose的命令格式](#docker-compose的命令格式)
 
@@ -136,8 +136,7 @@ Dockerfile就是一个文本文件,其中包含一个个的指令(Instruction),�
 |`docker network disconnect`|将一个容器从网络断开|
 |`docker network inspect`|查看网络的详细信息|
 
-## Docker Compose(需额外安装)
-需求较少,仅简单介绍.
+## Docker Compose
 
 ### 什么是Docker Compose
 Docker Compose是一个用于定义和运行多容器Docker应用程序的工具.通过Compose,我们可以使用一个单独的docker-compose.yml模板文件（YAML格式）来配置应用程序需要的所有服务.然后使用一个命令,即可从YAML文件配置中创建并启动所有服务,帮助我们实现多个相互关联的Docker容器的快速部署.
